@@ -209,6 +209,9 @@ font-size:15pt
 .dropdown:hover .dropdownlist{
 	display:inline-block
 }
+.dropdown:hover .menucompNews{
+	color:#c9001a
+}
 .footer{
 	background-color:#000000;
 	height:13cm;
