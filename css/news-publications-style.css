@@ -1,0 +1,352 @@
+@font-face { font-family :"AvenirL TStd"; src: url(fonts/AvenirLTStd-Heavy.otf)}
+@font-face { font-family :"Avenir Heavy"; src: url(fonts/Avenir-Heavy.otf)}
+@font-face { font-family :"MyriadPro Regular"; src: url(fonts/MyriadPro-Regular.otf)}
+ul
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+body
+{
+    width: 100%;
+    height: 2000px;
+    margin: 0 auto;
+    background-color:#ececed;
+}
+header
+{
+    width: 100%;
+    /*height: 6%;*/
+    height: 5%;
+    background-image: url("../imgs/ball.png");
+
+    background-color: #e6001f;
+    
+}
+header .header-container
+{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+header .logo-container
+{
+    
+    width: 30%;
+    height: 100%;
+    float:left; 
+    
+}
+header .logo-container img
+{
+    position:absolute;
+    
+}
+header  .nav-menue
+{
+    width: 40%;
+    height: 100%;
+    float:right;
+    margin-top: 20px;   
+    
+}
+
+header li,.social-media li
+{
+    display: inline;
+    margin-left: 30px;
+}
+.icon,a,h3
+{
+    color: white;
+}
+/********************************************/
+
+.slider-container
+{
+    width: 100%;
+    /*height: 25%;*/
+    height: 25%;
+   background-color: white;
+   position: relative;
+    z-index: -1;
+}
+
+.slider-container .photos
+{
+    width: 100%;
+    height: 85%;
+    position: relative;
+    z-index: -1;
+}
+.slider-container .photos div
+{
+    float:left; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.slider-container .div1
+{
+    width: 18%;
+    height: 100%;
+    background-image: url(../imgs/11.png);    
+    
+}
+.slider-container .div3
+{
+     width: 18%;
+    height: 100%;
+    background-image: url(../imgs/33.png);
+}
+.slider-container .div2
+{
+    width: 64%;
+    height: 100%;
+    background-image: url("../imgs/22.png");
+}
+
+.fixed-menue
+{
+    background-color: black;
+    width:68%;
+    height: 10%;
+    margin: -50px auto;
+    padding-bottom: 20px
+   
+    
+}
+.fixed-menue li
+{
+    float: left;
+    
+    margin-left: 140px;
+    font-size: 16px;
+}
+/********************************************/
+/* main */
+main
+{
+    width:100%;
+    height: 54%;
+    margin:0 auto;
+    padding-top: 50px;
+}
+section
+{
+    width:70%;
+    height: 22%;
+    margin: 30px auto;
+    background-color: #ffffff;
+}
+.publication-content
+{
+    width:65%;
+    height: 100%;
+    float:left;
+    
+}
+article
+{
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+}
+p
+{
+    margin: 0 auto;
+}
+h1
+{display: inline;}
+.mark
+{
+    width: 15px;
+    height: 0px;
+    margin-top:10px;
+    border:2px solid #e6001f;   
+    float:left;
+}
+
+.details
+{
+    width: 80%;
+    height: 40%;
+    margin: 10px 10px;
+    display: inline;
+    float: left;
+
+}
+.download
+{
+    
+    float: left;
+    display: inline;
+    border: 0px;
+    
+}
+main span
+{
+    margin-bottom: 20px;
+}
+button
+{
+    background-color: white;
+    
+}
+.photo
+{
+    width:35%;
+    height: 100%;
+    float:left;
+    background-color:#ececed;
+}
+.photo img
+{
+    width: 100%;
+    height: 100%;
+}
+main .icon
+{
+    color: #e6001f;
+}
+section p, section span, section a
+{
+    color: #959494;
+}
+
+section p
+{
+    font-family: "Avenir Heavy";
+    font-size: 20px;;
+}
+section span
+{
+    font-family: "AvenirL TStd";
+}
+section button 
+{
+    
+    border-style:hidden;
+    
+}
+
+.view-more
+{
+    width:20%;
+    height: 5%;
+    margin: 150px auto;
+    display: block;
+    background-color: #ececed;
+    border:2px solid red;
+    
+}
+.view-more a
+{
+    font-size: 26px;
+    color: #9b9a9a;
+}
+.bar
+{
+    width:70%;
+    height: 20%;
+    float:left;
+    margin-top: 280px;
+    margin-left: 50px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white; 
+}
+.buttons
+{
+    width:8%;
+    height: 10%;
+    float:left;
+    margin-top: 330px;
+    background-color: #e6001f;
+    
+}
+.bar p
+{
+    font-size: 22px;
+    font-family:AvenirL TStd ;
+}
+.buttons a
+{
+    margin-left: 10px;
+}
+/********************************************/
+/* footer*/
+
+footer
+{
+    width:100%;
+    height: 16%;
+    background-color:#000000;
+    padding-top: 50px
+    
+}
+
+.footer-container
+{
+    width:80%;
+    height: 80%;
+    margin: 0px auto;
+    
+}
+footer .logo-container/* 1 */
+{
+    width:20%;
+    height: 90%;
+    float: left;
+}
+
+.footer-menues /* 2 */
+{
+    width:70%;
+    height: 90%;
+    float: right;
+    
+}
+
+.footer-menues > div/* 2->1 */
+{
+    width:30%;
+    height: 95%;
+    float:left;
+    margin: 10px;
+}
+.social-media
+{
+ height: 15%;
+ margin-left: -30px;;      
+}
+footer span 
+{
+    color:#ffffff;
+    font-size: 20px;
+    font-family: MyriadPro Regular;
+
+}
+footer li
+{
+     margin-top:20px; 
+}
+footer a
+{
+    color: #999999;
+    font-size: 18px;
+    font-family: MyriadPro Regular;
+}
+
+footer .icon
+{
+     color:#ffffff;
+}
