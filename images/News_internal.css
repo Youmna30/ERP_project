@@ -52,7 +52,7 @@
 .pic{
 /*	width:56.2cm;*/
 /*	overflow:auto;*/
-    opacity: 0.3;
+    
     background-image: url(images/headerlogo.png);    
     background-repeat: no-repeat;
     background-position: top;
@@ -102,7 +102,7 @@
 /*	width:26.2cm;*/
 	height:1.5cm;
 /*	margin-left:3.5cm;*/
-	margin-top: 8%;
+	margin-top: 5%;
 /*	position:absolute*/
 
 }
@@ -118,20 +118,13 @@
 }
 .middle{
 	background-color:#ececed;
-    opacity: 0.3;
+/*	width:56.2cm;*/
+/*	height:35.59cm*/
+        
     width: 100%;
 /*    max-width: 1920px;*/
     margin: auto;
-	z-index: 1;
-}
-.middle2{
-    width: 100%;
-/*    max-width: 1920px;*/
-    margin: auto;
-    position: absolute;
-    
-    z-index: 10;
-    top: 1060px;
+	
 }
 .hmiddle{
 	display: inline-block;
