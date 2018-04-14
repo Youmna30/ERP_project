@@ -10,12 +10,18 @@
 .Header{
 	background-color: #e6001f;
 	background-image: url(images/ball.png);
-	width: 56.2cm;
+/*	width: 56.2cm;*/
 	height: 4.73cm;
-	position:absolute;
+/*	position:absolute;*/
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    max-width: 1920/px;
+    margin: auto;
 }
 .logo {
-	float:left;
+/*	float:left;*/
 	margin-left:13cm;
 	margin-top:-2.5cm;
 	position:absolute;
@@ -44,43 +50,60 @@
 	margin-right:13cm
 }
 .pic{
-	width:56.2cm;
-	height:20.59cm;
-	overflow:auto;
+/*	width:56.2cm;*/
+/*	overflow:auto;*/
+    
+    background-image: url(images/headerlogo.png);    
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+/*    max-width: 1920px;*/
+    margin: auto;
 
 }
+.backg{
+    
+    background-image: url(images/headerlogo2.png);    
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding-top: 500px ;
+    
+}
 .img1{
-	float:left;
+/*	float:left;*/
 	
 }
 .img2{
-	float:left;
+/*	float:left;*/
 }
 .img3{
-	float:left;
+/*	float:left;*/
 }
 .bar{
 	background-color:#ffffff;
-	height:3.3cm;
-	width:23.2cm;
-	position:absolute;
+/*	height:3.3cm;*/
+/*	width:23.2cm;*/
+/*	position:absolute;*/
+/*
 	margin-top:-5.7cm;
 	margin-left:3.5cm;
+*/
 
 }
 .bar p{
 	font-family:AvenirL TStd ;
 	padding:0.5cm;
-	font-size:25pt
+	font-size:20pt
     
 }
 .redbar{
 	background-color:#e6001f;
-	width:26.2cm;
+/*	width:26.2cm;*/
 	height:1.5cm;
-	margin-left:3.5cm;
-	margin-top:-3.9cm;
-	position:absolute
+/*	margin-left:3.5cm;*/
+	margin-top: 5%;
+/*	position:absolute*/
 
 }
 .redbar a {
@@ -95,23 +118,29 @@
 }
 .middle{
 	background-color:#ececed;
-	width:56.2cm;
-	height:35.59cm
+/*	width:56.2cm;*/
+/*	height:35.59cm*/
+        
+    width: 100%;
+/*    max-width: 1920px;*/
+    margin: auto;
 	
 }
 .hmiddle{
 	display: inline-block;
 	font-family: "AvenirL TStd";
-	margin: 3.21cm 0cm 1.5cm 15cm;
-	font-size:25pt
+/*	margin: 3.21cm 0cm 1.5cm 15cm;*/
+	font-size:25pt;
+    margin: 3.21cm 0cm 1.5cm 0cm;
 	
 	
 }
 .event{
 	background-color:#ffffff;
-	margin:0cm 14cm 1cm 14cm;
+/*	margin:0cm 14cm 1cm 14cm;*/
+    margin:0cm 0cm 1cm 0cm;
 	padding:1.5cm;
-	width:30cm;
+/*	width:30cm;*/
 	
 	
 }
@@ -133,18 +162,19 @@
 	width:0.5cm;
 	height:0.1cm;
 	background-color:red;
-	display:inline-block
+/*	display:inline-block*/
 
 }
 .content{
     font-family:"Avenir Heavy";
 	color:#959595;
 	margin-left:0.5cm;
-	font-size:15pt
+	font-size:15pt ;
+    text-align: left;
 }
 .text{
 	margin-top:-0.4cm;
-	margin-left:0.5cm;
+/*	margin-left:0.5cm;*/
 }
 .button{
 	padding:0.5cm 2.3cm 0.5cm 2.3cm;
@@ -153,8 +183,11 @@
     border-color:#e6001f;
     color:#e6001f;
 	font-family:"Avenir Heavy";
-	margin-left:26.6cm;
-	font-size:20pt
+/*	margin-left:26.6cm;*/
+    text-align: center ;
+    align-content: center ;
+	font-size:20pt ;
+    margin-bottom: 5%
 }
 .menu{
 	background-color:#000000;
@@ -272,4 +305,76 @@ font-size:15pt
 	padding:0.05cm;
 	padding-bottom:0cm;
 	padding-left:0.1cm
+}
+
+/*###*/
+
+.txt2{
+    font-family: Calibri;
+    font-size: 16pt;
+    color: rgba(0, 0, 0, 255);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0%;
+    height: 100px; 
+    
+/*    min-height: 100px;*/
+/*    background: whigt;*/
+}
+
+.nav
+{
+    background: black; 
+    height: 85px; 
+    margin-top: -145px;
+/*    position: absolute;*/
+    
+    
+}
+
+.txt{
+    font-family: Calibri;
+    font-size: 16pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center; 
+}
+
+.red-txt
+{
+    color: #e6001f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer1{
+    font-size: 18pt;
+    color: rgb(255,255,255);
+    font-family: "Calibri";
+    text-align: left;
+}
+.footer2{
+    opacity: 0.6;
+}
+.red-box{
+    
+    background-color:#e6001f;
+/*    background-image: url(images/l-arrow.png);    */
+/*    background-repeat: no-repeat;*/
+/*    background-position: top;*/
+    width: 100%;
+    padding: 0%;
+    
+}
+.red-box2{
+    
+    background-color:#e6001f;
+/*
+    background-image: url(images/r-arrow.png);    
+    background-repeat: no-repeat;
+    background-position: top;
+*/
+    width: 100%;
 }
